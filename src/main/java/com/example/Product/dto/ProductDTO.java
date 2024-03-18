@@ -2,7 +2,7 @@ package com.example.Product.dto;
 
 public class ProductDTO {
     private String productName;
-    private String productCategory;
+    private int pId;
     private int productPrice;
     public String getProductName() {
         return productName;
@@ -10,11 +10,11 @@ public class ProductDTO {
     public void setProductName(String productName) {
         this.productName = productName;
     }
-    public String getProductCategory() {
-        return productCategory;
+    public int getProductCategory() {
+        return pId;
     }
-    public void setProductCategory(String productCategory) {
-        this.productCategory = productCategory;
+    public void setProductCategory(int productCategory) {
+        this.pId = productCategory;
     }
     public int getProductPrice() {
         return productPrice;

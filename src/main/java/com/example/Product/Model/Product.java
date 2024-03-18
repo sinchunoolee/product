@@ -19,8 +19,9 @@ public class Product {
         return pName;
     }
 
-    public void setpName(String pName) {
+    public Product setpName(String pName) {
         this.pName = pName;
+        return this;
     }
 
 
@@ -28,16 +29,19 @@ public class Product {
         return pId;
     }
 
-    public void setpId(int pId) {
+    public Product setpId(int pId) {
         this.pId = pId;
+        return this;
+
     }
 
     public int getpPrice() {
         return pPrice;
     }
 
-    public void setpPrice(int pPrice) {
+    public Product setpPrice(int pPrice) {
         this.pPrice = pPrice;
+        return this;
     }
 
 
